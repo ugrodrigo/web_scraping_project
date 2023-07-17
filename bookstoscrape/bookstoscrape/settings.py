@@ -66,6 +66,11 @@ ITEM_PIPELINES = {
    "bookstoscrape.pipelines.BookstoscrapePipeline": 300,
 }
 
+FEEDS = {
+    'booksdata.json' :{'format':'json'}
+}
+
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
