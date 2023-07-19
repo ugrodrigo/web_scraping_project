@@ -24,6 +24,8 @@ The file **pipelines.py** cleans and transforms the data (string to numbers), ma
 
 The output is the **booksdata.json** file inside the *bookstoscrape* folder.
 
+In order to orchestrate the data extraction, this code can also be scheduled in an online server like [Digital Ocean](https://cloud.digitalocean.com/).
+You just need to configure the libraries **scrapyd** and **scrapydweb** to work properly.
 
 ## Getting Started
 
