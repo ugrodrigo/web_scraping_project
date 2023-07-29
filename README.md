@@ -60,13 +60,6 @@ pip install scrapy
 scrapy crawl books
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details
