@@ -57,6 +57,7 @@ pip install scrapy
 
 * How to run the program
 ```
+cd bookstoscrape
 scrapy crawl books
 ```
 
